@@ -8,7 +8,7 @@ if (url) {
     try {
         wb = new WebhookClient({ url });
     } catch (e) {
-        console.error('<a:loading:1213877771323842581> Webhook oluşturulamadı:', e);
+        console.error('Webhook oluşturulamadı:', e);
     }
 }
 
@@ -36,6 +36,6 @@ manager.on('shardCreate', shard => {
 });
 
 manager.spawn().then(() => {
-    if (wb) wb.send({ embeds: [new EmbedBuilder().setDescription(`<a:mutlu:1213880237864124557> **Bütün shard'lar başarıyla başlatıldı ve kullanıma hazır**`).setColor("DarkPurple")] });
+    if (wb) wb.send({ embeds: [new EmbedBuilder().setDescription(`**Bütün shard'lar başarıyla başlatıldı ve kullanıma hazır**`).setColor("White")] });
     console.log(chalk.green(`[SHARD SYSTEM] `) + chalk.red(`Bot Aktif Edildi !`));
 });
