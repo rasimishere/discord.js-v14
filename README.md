@@ -2,12 +2,12 @@
 
 # Hello, I offer to you Discord.js v14 Empty Infrastructure.You can use it by adding commands to it.
 
-- Please read the README-END file.
+- Please read the  [README-ENG.md](/README-ENG.md) file.
 - After filling in the required information in the [config.json](/config.json) file, you can start using your bot.
 
 # TURKISH
 
 # Merhaba Sizlere Discord.js v14 Sürümü İle Hazırladığım Boş Altyapımı sunuyorum.
 
--  Lütfen README-TR dosyasını okuyunuz.
+-  Lütfen [README-TR.md](/README-TR.md) dosyasını okuyunuz.
 - [config.json](/config.json) dosyasında gereken bilgileri doldurduktan sonra botunuzu kullanmaya başlayabilirsiniz.
