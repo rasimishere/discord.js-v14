@@ -26,7 +26,7 @@ for (const folder of commandFolders) {
     for (const file of commandFiles) {
         const commandPath = `./src/${folder}/${file}`;
         const command = require(commandPath);
-        const commandCategory = folder.toLocaleUpperCase(); // Kategori adını küçük harfe çevirerek alıyoruz
+        const commandCategory = folder.toLocaleUpperCase();
         slashcommands.push(command.data.toJSON());
         client.slashcommands.set(command.data.name, command);
         console.log(chalk.cyan('[KOMUT] ' + command.data.name + ' Yüklendi' + chalk.yellow(' - ') + chalk.red('Kategori: ' + commandCategory)));
