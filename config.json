@@ -1,7 +1,7 @@
 {
     "token": "YOUR BOT TOKEN",
     "webhook": "WEBHOOK",
-    "ActivityName": "rasim is here",
+    "ActivityName": "Text to be displayed in bot status",
     "status":"dnd",
     "shard": 2
 }
